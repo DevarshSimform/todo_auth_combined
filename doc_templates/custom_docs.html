@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: #505b72;
+        }
+
+        .link-section {
+            margin-top: 30px;
+        }
+
+        .link-section p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #505b72;
+        }
+
+        .links a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #007BFF;
+            margin: 10px 0;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #007BFF;
+            transition: background-color 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem; /* Smaller header on smaller screens */
+            }
+
+            .links a {
+                font-size: 1rem;
+                padding: 8px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2rem;
+            }
+
+            .links a {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Combined API Documentation</h1>
+
+    <div class="link-section">
+        <p><strong>Todo API:</strong> Access the API documentation for managing tasks, including creating, updating, and deleting tasks - <strong>(POC1)</strong>.</p>
+        <a href="/poc1/docs">Go to Todo API Documentation</a>
+    </div>
+
+    <div class="link-section">
+        <p><strong>Auth API:</strong> Access the API documentation for user authentication, including registration, login, and profile management - <strong>(POC2)</strong>.</p>
+        <a href="/poc2/docs">Go to Auth API Documentation</a>
+    </div>
+</div>
+
+</body>
+</html>
