@@ -12,7 +12,7 @@ from .db import get_db
 from ..exception import CredentialException
 
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/poc1/auth/login")
 
 
 SECRET_KEY = os.getenv("SECRET_KEY")

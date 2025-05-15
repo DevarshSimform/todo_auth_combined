@@ -11,7 +11,7 @@ from ..repositories.auth_repo import AuthRepository
 from ..exceptions import CredentialException
 
 
-oauth2_schema = OAuth2PasswordBearer(tokenUrl="/auth/login")
+oauth2_schema = OAuth2PasswordBearer(tokenUrl="/poc2/auth/login")
 
 
 def get_current_user_with_db(
